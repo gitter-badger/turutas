@@ -1,0 +1,25 @@
+/web/bundles/
+/app/bootstrap.php.cache
+/app/cache/*
+/app/config/parameters.yml
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+/build/
+/vendor/
+/bin/
+
+# composer files
+/composer.phar
+/composer.lock
+
+# Archivos de entornos de desarrollo y editores de texto
+# (SublimeText, Eclipse, Zend Studio, Netbeans, PHPStorm, TextMate2)
+Capfile
+.buildpath
+.idea
+nbproject
+.project
+.settings
+.sublime-project
+.tm_properties
